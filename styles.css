@@ -1,49 +1,52 @@
-*{
-
-    margin:0px;
-}
+*{ margin: 0;}
 
 header{
     color: black;
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
-    height: 100px;
+    
 
     /* line-height: 100px; */
 }
 
 h1{
-    font-size:30px;
-    text-align: center;
-    margin-bottom: 10px;
-    border-bottom: 2px solid black;
+    font-size:30px;    
+    text-align:center;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    height: 51px;
+    display: block
 
-    
 }
 
 a {  font-size: 30px;
     text-decoration-line: none;
     color: black;
-}
-
-#name{
-    color: gray;
-    
-    
-}
-
-#name1{
-    height: 0px;
-    border:1px;
-}
-
-#name2{ text-align: center;
-        height: 0px;
-}
-
-#name3{ text-align: right;
 
 }
 /* 구글검색결과: a 태그는 inline 요소라 text-align 이 적용되지 않습니다. 
 그래서 a 태그를 div 태그로 감싸서 block요소로 만든 후 
 div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
+
+#name{
+    color: darkblue 
+    
+}
+
+#name1{ text-align: left;
+         
+}
+
+#name2{ text-align: center;
+
+}
+
+#name3{ text-align: right;
+
+}
+
+/* 어떻게 정렬을해야할지 모르겠다.....  
+
+박스와 그리드 개념을 열심히 공부해야겠다.
+
+*/
