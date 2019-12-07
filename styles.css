@@ -2,7 +2,7 @@
 
 header{
     color: black;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     
 
@@ -10,7 +10,7 @@ header{
 }
 
 h1{
-    font-size:30px;    
+    font-size:50px;    
     text-align:center;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
@@ -33,20 +33,40 @@ div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
     
 }
 
-#name1{ text-align: left;
-         
-}
-
-#name2{ text-align: center;
+#m1{ margin-left: 735px;
+    
 
 }
 
-#name3{ text-align: right;
+#m2{ margin-left: 100px;
+    }
 
+#m3{
+    margin-left: 120px;
+   
 }
 
-/* 어떻게 정렬을해야할지 모르겠다.....  
+@media(max-width:750px) {
+    #m1{ margin-left: 120px;
+        border:1px solid black;
+    }
+    
+    #m2{ margin-left: 120px;
+        border:1px solid black;}
+    
+    #m3{
+        margin-left: 120px;
+        border:1px solid black;
+    }
+    h1{
+        font-size: 3000px;
+    }
+    header{
+        color: black;
+        font-size: 50px;
+        text-align: center;
+        
 
-박스와 그리드 개념을 열심히 공부해야겠다.
-
-*/
+    }
+}    
+ 
