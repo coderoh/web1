@@ -46,7 +46,7 @@ div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
    
 }
 
-@media(max-width:1500px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     #m1{ margin-left: 300px;
         border:1px solid black;
     }
@@ -66,7 +66,7 @@ div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
         font-size: 50px;
         text-align: center;
         
-
+        
     }
 }    
  
