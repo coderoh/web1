@@ -33,16 +33,16 @@ div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
     
 }
 
-#m1{ margin-left: 130px;
+#m1{ margin-left: 160px;
     
 
 }
 
-#m2{ margin-left: 120px;
+#m2{ margin-left: 160px;
     }
 
 #m3{
-    margin-left: 120px;
+    margin-left: 160px;
    
 }
 @media (min-width: 481px) and (max-width: 767px) {
