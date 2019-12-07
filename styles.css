@@ -29,25 +29,24 @@ a {  font-size: 30px;
 div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
 
 #name{
-    color: darkblue 
+    color:pink;
     
 }
 
-#m1{ margin-left: 735px;
+#m1{ margin-left: 130px;
     
 
 }
 
-#m2{ margin-left: 100px;
+#m2{ margin-left: 120px;
     }
 
 #m3{
     margin-left: 120px;
    
 }
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    #m1{ margin-left: 300px;
+@media (min-width: 481px) and (max-width: 767px) {
+    #m1{ margin-left: 0px;
         border:1px solid black;
     }
     
@@ -64,8 +63,10 @@ div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
     header{
         color: black;
         font-size: 50px;
-        text-align: center;
-        
+        text-align: center;   
+    }
+    #name{
+        color:  black;
         
     }
 }    
