@@ -46,8 +46,8 @@ div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
    
 }
 
-@media(max-width:750px) {
-    #m1{ margin-left: 120px;
+@media(max-width:1500px) {
+    #m1{ margin-left: 300px;
         border:1px solid black;
     }
     
