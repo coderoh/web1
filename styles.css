@@ -28,46 +28,47 @@ a {  font-size: 30px;
 그래서 a 태그를 div 태그로 감싸서 block요소로 만든 후 
 div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
 
-#name{
+.name{
     color:pink;
     
 }
 
-#m1{ margin-left: 160px;
-    
-
+#m1{ 
+     position: fixed;
+        left:200px;
+        top:160px;
 }
 
-#m2{ margin-left: 160px;
+#m2{ position: fixed;
+     left:400px;
+     top:160px;
     }
 
-#m3{
-    margin-left: 160px;
+#m3{position: fixed;
+    left:600px;
+    top: 160px;
    
+    
+    
 }
-@media (min-width: 481px) and (max-width: 767px) {
-    #m1{ margin-left: 0px;
-        border:1px solid black;
-    }
-    
-    #m2{ margin-left: 120px;
-        border:1px solid black;}
-    
-    #m3{
-        margin-left: 120px;
-        border:1px solid black;
-    }
-    h1{
-        font-size: 3000px;
-    }
-    header{
-        color: black;
-        font-size: 50px;
-        text-align: center;   
-    }
-    #name{
-        color:  black;
-        
-    }
-}    
+
+
+#m1:hover{font-size: 50px;
+    transform: 0.4s;
+    color: darkblue;
+}
+
+#m2:hover{font-size: 50px;
+    transform: 0.4s;
+    color: darkblue;
+}
+
+#m3:hover{
+
+    font-size: 50px;
+    transform: 0.4s;
+    color: darkblue;
+}
+
+
  
