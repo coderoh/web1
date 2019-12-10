@@ -1,7 +1,8 @@
 *{ margin: 0;}
 
 header{
-    color: black;
+
+    color:goldenrod;
     font-size: 70px;
     text-align: center;
     
@@ -19,21 +20,31 @@ h1{
 
 }
 
-a {  font-size: 30px;
-    text-decoration-line: none;
-    color: black;
 
+
+a.menu{ font-size: 40px;
+    text-decoration-line: none;
+    color:black;
 }
+
+.background{ 
+
+    font-size: 20px;
+}
+
+
+
 /* 구글검색결과: a 태그는 inline 요소라 text-align 이 적용되지 않습니다. 
 그래서 a 태그를 div 태그로 감싸서 block요소로 만든 후 
 div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
 
 .name{
-    color:pink;
-    
+    color:brown;
+    text-decoration-line: none;
+    font-size: 30px;
 }
 
-#m1{ 
+/* #m1{ 
      position: fixed;
         left:200px;
         top:160px;
@@ -47,28 +58,110 @@ div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
 #m3{position: fixed;
     left:600px;
     top: 160px;
-   
+ }
+  */
+
+  .container{
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
+#m:hover{font-size: 50px;
+    transform: 0.4s;
+    color: darkblue;
+}
+
+
+
+#background0{
+
+    width:100px;
+    height: 100px;
+    background: crimson;
+}
+#background1{
+    width:1px;
+    background: palegreen;
+    opacity: 0.8;
+}
+
+#background2{
     
+    width:1px;
+    background: yellow;
+    opacity: 0.8;
+}
+
+#background3{
+    
+    width:1px;
+    background: green;
+    opacity: 0.8;
+}
+#background4{
+    
+    width:1px;
+    background: green;
+    opacity: 0.8;
+}
+#background5{
+    
+    width:1px;
+    background: green;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+#background0:hover{
+
+    width:1000px;
+    background: crimson;
+    transition: 1s;
     
 }
 
 
-#m1:hover{font-size: 50px;
-    transform: 0.4s;
-    color: darkblue;
+#background1:hover{
+    
+    width:10px;
+    background: palegreen;
+    transition: 1s;
+    
 }
 
-#m2:hover{font-size: 50px;
-    transform: 0.4s;
-    color: darkblue;
+#background2:hover{
+    
+    width:10px;
+    background: yellow;
+    transition: 1s;
 }
 
-#m3:hover{
-
-    font-size: 50px;
-    transform: 0.4s;
-    color: darkblue;
+#background3:hover{
+    
+    width:10px;
+    background: green;
+    transition: 1s;
 }
 
-
+#background4:hover{
+    
+    width:0px;
+    background: green;
+    transition: 1s;
+}
+#background5:hover{
+    
+    width:0px;
+    background: green;
+    transition: 1s;
+}
  
