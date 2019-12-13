@@ -17,8 +17,21 @@
 </head>
 
 <body>
-  <a href="index.html">화제의 음악<a>
- 
+  <a href="index.html" class="me5" >실험실<a>
+
+<input type="button" value="darkmode" onclick="
+var target=document.querySelector('body');
+if(this.value === 'darkmode') {
+target.style.backgroundColor = 'black';
+target.style.color = 'white';
+this.value = 'day'
+} else{
+target.style.backgroundColor = 'white';
+target.style.color = 'black';
+this.value = 'darkmode'
+}
+"></input>
+ <!-- 정렬을 어떻게 해야할지 모르겠다 -->
 
 </body>
 
