@@ -1,6 +1,8 @@
 *{ margin: 0;
-   }
+    font-family: 'Nanum Gothic Coding', monospace;
+}
 
+   
 header{
 
     color:black;
@@ -12,7 +14,7 @@ header{
     /* line-height: 100px; */
 }
 
-h1{
+.subtitle{
     font-size:50px;    
     text-align:center;
     border: 1px solid black;
@@ -39,7 +41,7 @@ a.menu{ font-size: 40px;
 }
 
 .me5{
-    color: lightblue;
+    color: black;
     font-size: 50px;
  
 }
@@ -55,23 +57,6 @@ div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
     text-decoration-line: none;
     font-size: 30px;
 }
-
-/* #m1{ 
-     position: fixed;
-        left:200px;
-        top:160px;
-}
-
-#m2{ position: fixed;
-     left:400px;
-     top:160px;
-    }
-
-#m3{position: fixed;
-    left:600px;
-    top: 160px;
- }
-  */
 
   .container{
 
@@ -177,3 +162,28 @@ div에 가운데 정렬 시킬 클래스를 따로 정의하시면 됩니다 */
     transition: 1s;
 }
  
+  
+  .video-player-info {
+    background-color: #fff;
+    padding: 8px 10px 10px;
+    border: 1px solid black;
+    width:450; 
+    height:auto;
+  }
+  
+  .video-player-info h1 {
+    margin-bottom: 2px;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+    color: #383838;
+  }
+  
+  .video-player-info p {
+    font-size: 13px;
+    letter-spacing: -0.03em;
+    color: #8e8e93;
+  }
+
+  ul{
+     list-style: none;
+  }
