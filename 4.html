@@ -8,7 +8,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153667874-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-153667874-1');
@@ -17,9 +20,9 @@
 </head>
 
 <body>
-  <a href="index.html" class="me5" >실험실<a>
+  <a href="index.html" class="me5">실험실<a>
 
-<input type="button" value="darkmode" onclick="
+      <input type="button" value="darkmode" onclick="
 var target=document.querySelector('body');
 if(this.value === 'darkmode') {
 target.style.backgroundColor = 'black';
@@ -31,7 +34,7 @@ target.style.color = 'black';
 this.value = 'darkmode'
 }
 "></input>
- <!-- 정렬을 어떻게 해야할지 모르겠다 -->
+      <!-- 정렬을 어떻게 해야할지 모르겠다 -->
 
 </body>
 
